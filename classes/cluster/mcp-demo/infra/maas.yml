@@ -1,0 +1,48 @@
+
+classes:
+- system.linux.system.repo.mcp.apt_mirantis.maas
+- system.maas.region.single
+- cluster.mcp-demo.infra
+parameters:
+  maas:
+    cluster:
+      region:
+        host: ${_param:deploy_address}
+    region:
+      commissioning_scripts:
+        00-maas-05-simplify-network-interfaces: /etc/maas/files/commisioning_scripts/00-maas-05-simplify-network-interfaces
+      bind:
+        host: ${_param:deploy_address}
+      machines:
+        kvm02:
+          interface:
+            mac: 0c:c4:7a:42:47:e4
+          power_parameters:
+            power_address: 185.8.58.33
+            power_password: lkenfvHGedfklj
+            power_type: ipmi
+            power_user: engineer
+        kvm03:
+          interface:
+            mac: 0c:c4:7a:42:47:a2
+          power_parameters:
+            power_address: 185.8.58.31
+            power_password: lkenfvHGedfklj
+            power_type: ipmi
+            power_user: engineer
+#        kvm04:
+#          interface:
+#            mac: 0c:c4:7a:17:97:a0
+#          power_parameters:
+#            power_address: 185.8.59.40
+#            power_password: 9Meh7jm4fsH
+#            power_type: ipmi
+#            power_user: maas
+        cmp001:
+          interface:
+            mac: 0c:c4:7a:15:f8:f8
+          power_parameters:
+            power_address: 185.8.59.39
+            power_password: ceFu7buchooj
+            power_type: ipmi
+            power_user: mcp-qa
