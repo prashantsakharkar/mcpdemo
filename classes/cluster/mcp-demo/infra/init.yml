@@ -30,24 +30,24 @@ parameters:
     infra_config_hostname: cfg01
     salt_minion_ca_host: ${_param:infra_config_hostname}.${_param:cluster_domain}
     # infra service addresses
-    infra_config_address: 10.167.4.15
-    infra_config_deploy_address: 172.17.32.253
+    infra_config_address: 192.168.30.15
+    infra_config_deploy_address: 192.168.31.253
 
     cluster_domain: deploy-name.local
     cluster_name: mcp-demo
     cluster_public_host: ${_param:openstack_proxy_address}
 
-    control_network_netmask: 255.255.255.0
-    tenant_network_netmask: 255.255.255.0
+    control_network_netmask: 255.255.0.0
+    tenant_network_netmask: 255.255.0.0
 
     dns_server01: 8.8.8.8
     dns_server02: 8.8.4.4
-    tenant_network_gateway: 10.167.5.1
-    control_vlan: 2428
-    tenant_vlan: 2429
+    tenant_network_gateway: 192.168.32.1
+    control_vlan: 2001
+    tenant_vlan: 2001
 
     deploy_network_netmask: 255.255.255.192
-    deploy_network_gateway: 172.17.32.193
+    deploy_network_gateway: 192.168.31.193
 
     # MaaS parameters
     infra_maas_node01_deploy_address: ${_param:infra_config_deploy_address}
@@ -55,13 +55,13 @@ parameters:
     maas_admin_username: mirantis
     maas_admin_password: r00tme
     maas_db_password: fRqC7NJrBR0x
-    infra_kvm_address: 10.167.4.240
-    infra_kvm_node01_address: 10.167.4.241
-    infra_kvm_node02_address: 10.167.4.242
-    infra_kvm_node03_address: 10.167.4.243
-    infra_kvm_node01_deploy_address: 172.17.32.195
-    infra_kvm_node02_deploy_address: 172.17.32.196
-    infra_kvm_node03_deploy_address: 172.17.32.197
+    infra_kvm_address: 192.168.30.240
+    infra_kvm_node01_address: 192.168.30.241
+    infra_kvm_node02_address: 192.168.30.242
+    infra_kvm_node03_address: 192.168.30.243
+    infra_kvm_node01_deploy_address: 192.168.31.195
+    infra_kvm_node02_deploy_address: 192.168.31.196
+    infra_kvm_node03_deploy_address: 192.168.31.197
     infra_kvm_node01_hostname: kvm01
     infra_kvm_node02_hostname: kvm02
     infra_kvm_node03_hostname: kvm03

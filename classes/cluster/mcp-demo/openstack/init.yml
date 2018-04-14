@@ -66,27 +66,27 @@ parameters:
     openstack_notification_topics: "notifications,${_param:stacklight_notification_topic}"
 
     # openstack service addresses
-    openstack_proxy_address: 10.167.4.80
-    openstack_proxy_node01_address: 10.167.4.81
-    openstack_proxy_node02_address: 10.167.4.82
-    openstack_control_address: 10.167.4.10
-    openstack_control_node01_address: 10.167.4.11
-    openstack_control_node02_address: 10.167.4.12
-    openstack_control_node03_address: 10.167.4.13
-    openstack_database_address: 10.167.4.50
-    openstack_database_node01_address: 10.167.4.51
-    openstack_database_node02_address: 10.167.4.52
-    openstack_database_node03_address: 10.167.4.53
-    openstack_message_queue_address: 10.167.4.40
-    openstack_message_queue_node01_address: 10.167.4.41
-    openstack_message_queue_node02_address: 10.167.4.42
-    openstack_message_queue_node03_address: 10.167.4.43
+    openstack_proxy_address: 192.168.30.80
+    openstack_proxy_node01_address: 192.168.30.81
+    openstack_proxy_node02_address: 192.168.30.82
+    openstack_control_address: 192.168.30.10
+    openstack_control_node01_address: 192.168.30.11
+    openstack_control_node02_address: 192.168.30.12
+    openstack_control_node03_address: 192.168.30.13
+    openstack_database_address: 192.168.30.50
+    openstack_database_node01_address: 192.168.30.51
+    openstack_database_node02_address: 192.168.30.52
+    openstack_database_node03_address: 192.168.30.53
+    openstack_message_queue_address: 192.168.30.40
+    openstack_message_queue_node01_address: 192.168.30.41
+    openstack_message_queue_node02_address: 192.168.30.42
+    openstack_message_queue_node03_address: 192.168.30.43
     openstack_upgrade_node01_hostname: upg01
-    openstack_upgrade_node01_address: 10.167.4.19
+    openstack_upgrade_node01_address: 192.168.30.19
 
     # OpenStack Compute
-    openstack_compute_rack01_single_subnet: 10.167.4
-    openstack_compute_rack01_tenant_subnet: 10.167.5
+    openstack_compute_rack01_single_subnet: 192.168.30
+    openstack_compute_rack01_tenant_subnet: 192.168.32
     openstack_compute_rack01_hostname: cmp
 
     # openstack service hostnames
@@ -107,7 +107,7 @@ parameters:
     openstack_message_queue_node03_hostname: msg03
 
     openstack_benchmark_node01_hostname: bmk01
-    openstack_benchmark_node01_address: 10.167.4.95
+    openstack_benchmark_node01_address: 192.168.30.95
     nginx_proxy_gerrit_server_site_port: 8070
     # Billing
     #keystone_billometer_password: iKGr2ofRe2nIdvT8

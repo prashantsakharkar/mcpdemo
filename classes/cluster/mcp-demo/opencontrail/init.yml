@@ -9,14 +9,14 @@ parameters:
     opencontrail_compute_iface_mask: 24
 
     # OpenContrail control
-    opencontrail_control_address: 10.167.4.20
-    opencontrail_control_node01_address: 10.167.4.21
-    opencontrail_control_node02_address: 10.167.4.22
-    opencontrail_control_node03_address: 10.167.4.23
-    opencontrail_analytics_address: 10.167.4.30
-    opencontrail_analytics_node01_address: 10.167.4.31
-    opencontrail_analytics_node02_address: 10.167.4.32
-    opencontrail_analytics_node03_address: 10.167.4.33
+    opencontrail_control_address: 192.168.30.20
+    opencontrail_control_node01_address: 192.168.30.21
+    opencontrail_control_node02_address: 192.168.30.22
+    opencontrail_control_node03_address: 192.168.30.23
+    opencontrail_analytics_address: 192.168.30.30
+    opencontrail_analytics_node01_address: 192.168.30.31
+    opencontrail_analytics_node02_address: 192.168.30.32
+    opencontrail_analytics_node03_address: 192.168.30.33
     #OpenContrail hostnames
     opencontrail_control_hostname: ntw
     opencontrail_control_node01_hostname: ntw01

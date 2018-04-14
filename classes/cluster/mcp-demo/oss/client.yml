@@ -171,7 +171,7 @@ parameters:
 
     # In case of using DOP through external proxy address
     rundeck_forward_iframe: False
-    rundeck_iframe_host: 172.17.32.1
+    rundeck_iframe_host: 192.168.31.1
     rundeck_iframe_port: 9093
     rundeck_iframe_ssl: False
 

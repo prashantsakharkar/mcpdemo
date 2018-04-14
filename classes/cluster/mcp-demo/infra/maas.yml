@@ -16,7 +16,7 @@ parameters:
       machines:
         kvm02:
           interface:
-            mac: 0c:c4:7a:42:47:e4
+            mac: 00:0c:29:bf:8f:45
           power_parameters:
             power_address: 185.8.58.33
             power_password: lkenfvHGedfklj
@@ -24,7 +24,7 @@ parameters:
             power_user: engineer
         kvm03:
           interface:
-            mac: 0c:c4:7a:42:47:a2
+            mac: 00:0c:29:1a:b8:48
           power_parameters:
             power_address: 185.8.58.31
             power_password: lkenfvHGedfklj
@@ -40,7 +40,7 @@ parameters:
 #            power_user: maas
         cmp001:
           interface:
-            mac: 0c:c4:7a:15:f8:f8
+            mac: 00:0c:29:dc:ca:ed
           power_parameters:
             power_address: 185.8.59.39
             power_password: ceFu7buchooj

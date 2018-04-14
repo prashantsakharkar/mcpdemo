@@ -23,23 +23,23 @@ parameters:
     stacklight_log_keepalived_password: svDXsrlzJ6wU0g4k
     stacklight_telemetry_keepalived_password: WmShpPxaP1dHZ5Ru
     stacklight_environment: ${_param:cluster_domain}
-    stacklight_log_address: 10.167.4.60
-    stacklight_log_node01_address: 10.167.4.61
-    stacklight_log_node02_address: 10.167.4.62
-    stacklight_log_node03_address: 10.167.4.63
-    stacklight_telemetry_address: 10.167.4.85
-    stacklight_telemetry_node01_address: 10.167.4.86
-    stacklight_telemetry_node02_address: 10.167.4.87
-    stacklight_telemetry_node03_address: 10.167.4.88
+    stacklight_log_address: 192.168.30.60
+    stacklight_log_node01_address: 192.168.30.61
+    stacklight_log_node02_address: 192.168.30.62
+    stacklight_log_node03_address: 192.168.30.63
+    stacklight_telemetry_address: 192.168.30.85
+    stacklight_telemetry_node01_address: 192.168.30.86
+    stacklight_telemetry_node02_address: 192.168.30.87
+    stacklight_telemetry_node03_address: 192.168.30.88
 
-    stacklight_monitor_address: 10.167.4.70
+    stacklight_monitor_address: 192.168.30.70
     stacklight_monitor_hostname: mon
     stacklight_monitor_node01_hostname: mon01
     stacklight_monitor_node02_hostname: mon02
     stacklight_monitor_node03_hostname: mon03
-    stacklight_monitor_node01_address: 10.167.4.71
-    stacklight_monitor_node02_address: 10.167.4.72
-    stacklight_monitor_node03_address: 10.167.4.73
+    stacklight_monitor_node01_address: 192.168.30.71
+    stacklight_monitor_node02_address: 192.168.30.72
+    stacklight_monitor_node03_address: 192.168.30.73
     grafana_admin_password: admin
     grafana_database_type: mysql
     grafana_database_host: ${_param:openstack_database_address}

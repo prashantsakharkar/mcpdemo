@@ -1,10 +1,10 @@
 
 parameters:
   _param:
-    cicd_control_address: 10.167.4.89
-    cicd_control_node01_address: 10.167.4.91
-    cicd_control_node02_address: 10.167.4.92
-    cicd_control_node03_address: 10.167.4.93
+    cicd_control_address: 192.168.30.89
+    cicd_control_node01_address: 192.168.30.91
+    cicd_control_node02_address: 192.168.30.92
+    cicd_control_node03_address: 192.168.30.93
     cicd_control_hostname: cid
     cicd_control_node01_hostname: cid01
     cicd_control_node02_hostname: cid02

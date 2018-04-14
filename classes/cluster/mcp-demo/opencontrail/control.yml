@@ -32,9 +32,9 @@ parameters:
     cluster_node03_hostname: ${_param:opencontrail_control_node03_hostname}
     cluster_node03_address: ${_param:opencontrail_control_node03_address}
     opencontrail_router01_hostname: rtr01
-    opencontrail_router01_address: 10.167.4.100
+    opencontrail_router01_address: 192.168.30.100
     opencontrail_router02_hostname: rtr02
-    opencontrail_router02_address: 10.167.4.101
+    opencontrail_router02_address: 192.168.30.101
   linux:
     network:
       interface:
